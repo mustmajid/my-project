@@ -1,5 +1,6 @@
-1.step one server setup & user creation
-
+1.Server setup & user creation
+step1.
+ 
 sudo adduser user1 
 [sudo] password for kali: 
 info: Adding user `user1' ...
@@ -21,7 +22,9 @@ Enter the new value, or press ENTER for the default
 Is the information correct? [Y/n] y
 info: Adding new user `user1' to supplemental / extra groups `users' ...
 info: Adding user `user1' to group `users' ...
-                                                                                
+
+Step2. 
+
 ┌──(kali㉿kali)-[~]
 └─$ sudo usermod -aG sudo user1  
 
